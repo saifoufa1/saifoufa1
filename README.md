@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Chakroun Saifallah
-- 👀 I’m interested in C++ projects
+- 👋 My Saifallah Chakroun
+- 👀 I’m interested in C++ / Network projects
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on Galaxy Online 1 GameServer Project.
 - 📫 How to reach me saifallah.chakroun@gmail.com
