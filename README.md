@@ -121,35 +121,23 @@ PGPASSWORD=postgres_password psql -h 127.0.0.1 -p 5432 -U postgres -d healthcare
 
 ## 📊 See Your HA Cluster in Action
 
-<div align="center">
-
 ### **🖥️ Real-time Monitoring Dashboard**
+
+<div align="center">
 
 *Access Grafana at http://localhost:3000 (admin/admin) to see:*
 
 ![Dashboard Preview](https://img.shields.io/badge/Live%20Dashboard-View%20Metrics-green?style=flat-square)
+
+</div>
+
+**What you'll see in your dashboards:**
 
 - **🟢 Node Health Status** - See all 3 nodes (1 primary + 2 replicas)
 - **📈 Performance Metrics** - CPU, memory, disk usage
 - **🔄 Replication Lag** - Data sync status between nodes
 - **⚡ Failover Events** - Historical failover tracking
 
-</div>
-
-### **🏥 Sample Healthcare Data Included**
-
-Your cluster comes pre-loaded with realistic healthcare data:
-
-```sql
--- See your data
-SELECT COUNT(*) FROM patients;        -- 1,000+ patients
-SELECT COUNT(*) FROM medical_facilities; -- 50+ facilities
-SELECT COUNT(*) FROM appointments;    -- 2,000+ appointments
-```
-
-**Perfect for testing your applications with realistic healthcare scenarios!**
-
----
 
 ## 🛡️ Test Failover Scenarios
 
@@ -221,8 +209,9 @@ docker compose up -d --build
 ```
 
 **2. Explore your dashboards** (1 minute)
+
 - Grafana: http://localhost:3000 (admin/admin)
-- Database: localhost:5432 (postgres/postgres_password)
+- Database: http://localhost:5432 (postgres/postgres_password)
 
 **3. Test a failover scenario** (2 minutes)
 ```bash
