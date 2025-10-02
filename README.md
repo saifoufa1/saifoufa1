@@ -207,7 +207,7 @@ git clone https://github.com/saifoufa1/PostgresSQL-HA.git
 cd PostgresSQL-HA && cp .env.test .env
 docker compose up -d --build
 ```
-
+</div>
 **2. Explore your dashboards** (1 minute)
 
 - Grafana: http://localhost:3000 (admin/admin)
@@ -221,7 +221,6 @@ docker compose stop postgres-primary
 
 **🎉 Congratulations! You now have enterprise-grade high availability!**
 
-</div>
 
 ---
 
@@ -252,6 +251,8 @@ docker compose stop postgres-primary
 **🔧 Found an issue?** Check the troubleshooting guides in `docs/04-recovery-procedures.md`
 
 **💡 Want to learn more?** Explore the testing scenarios in `docs/02-automated-failover.md`
+
+**📧 Need help or have questions?** Contact: saifallah.chakroun@gmail.com
 
 </div>
 
