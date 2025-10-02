@@ -51,7 +51,7 @@ Below is the infrastructure diagram:
 
 <div align="center">
 
-![HA Cluster Architecture](docs/diagram.png)
+![HA Cluster Architecture](Docs/diagram.png)
 
 **Figure 1: High Availability PostgreSQL Cluster Architecture**
 
@@ -73,7 +73,7 @@ Below is the infrastructure diagram:
 
 <div align="center">
 
-![HA Cluster Architecture](docs/Architecture.png)
+![HA Cluster Architecture](Docs/Architecture.png)
 
 *Complete PostgreSQL High Availability cluster with automated failover and monitoring*
 
