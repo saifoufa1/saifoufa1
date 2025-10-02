@@ -69,7 +69,7 @@ Below is the infrastructure diagram:
 | **📈 Prometheus** | Metrics collection | `9090` | Performance metrics aggregation |
 | **🔍 postgres-exporter** | Database metrics | `9187` | PostgreSQL performance monitoring |
 
-### **Visual Architecture:**
+### **🏗️ Visual Architecture:**
 
 <div align="center">
 
