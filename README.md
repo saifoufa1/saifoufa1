@@ -218,7 +218,7 @@ docker compose up -d --build
 docker compose stop postgres-primary
 # Watch automatic failover in Grafana!
 ```
-/div>
+</div>
 **🎉 Congratulations! You now have enterprise-grade high availability!**
 
 
